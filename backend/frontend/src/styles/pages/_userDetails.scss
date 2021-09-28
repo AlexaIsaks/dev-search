@@ -1,0 +1,18 @@
+// User Details page
+
+.user__image-container {
+  height: 8rem;
+  width: 8rem;
+  overflow: hidden;
+
+  @include media-query("medium") {
+    height: 20rem;
+    width: 20rem;
+  }  
+}
+
+.user__image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

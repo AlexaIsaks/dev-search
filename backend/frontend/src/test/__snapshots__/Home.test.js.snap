@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders correctly 1`] = `
+Array [
+  <header
+    className="py-5"
+  >
+    <h1
+      className="h2 text-center text-uppercase mb-0"
+    >
+      Dev Search
+    </h1>
+  </header>,
+  <main>
+    <div
+      className="container px-md-5"
+    >
+      <div>
+        <form
+          className="w-100"
+        >
+          <div
+            className="input-group"
+          >
+            <input
+              className="form-control border-top-0 border-start-0 border-end-0 bg-offwhite input"
+              name="search"
+              placeholder="Search dev by username"
+              required={true}
+              type="search"
+            />
+            <button
+              className="btn border border-top-0 border-start-0 border-end-0"
+              type="submit"
+            >
+              <span
+                className="d-flex justify-content-center align-items-center fs-5 text-mustard"
+              >
+                <ion-icon
+                  name="search-outline"
+                />
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div
+        className="py-5"
+      >
+        <div
+          className="mb-3 border-bottom bg-white shadow result"
+        >
+          <a
+            className="mb-3 text-secondary text-decoration-none"
+            data-id={2705266}
+            href="/user-details/2705266"
+            onClick={[Function]}
+          >
+            <div
+              className="row gx-2 gx-md-3 h-100"
+            >
+              <div
+                className="col-4 col-md-2 h-100 result__image-container"
+              >
+                <img
+                  alt="John Smith "
+                  className="result__image"
+                  src="https://secure.gravatar.com/avatar/2ed3e45ee10bf4e18df94e547c891c91?s=80&d=identicon"
+                />
+              </div>
+              <div
+                className="col-6 col-md-9 d-flex flex-column justify-content-center align-items-start"
+              >
+                <span>
+                  John Smith 
+                   (
+                  John_smith
+                  )
+                </span>
+                <span>
+                  GitLab
+                </span>
+              </div>
+              <div
+                className="col-2 col-md-1 d-flex justify-content-center align-items-center"
+              >
+                <span
+                  className="d-flex justify-content-center align-items-center fs-5 text-mustard"
+                >
+                  <ion-icon
+                    name="chevron-forward-outline"
+                  />
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>,
+]
+`;

@@ -1,0 +1,34 @@
+// Colours
+$mustard: rgb(212, 168, 0);
+$white : rgb(255, 255, 255);
+$offwhite: rgb(250, 249, 246);
+
+//Text colour
+.text-mustard {
+  color: $mustard;
+}
+
+// Background colour
+.bg-offwhite {
+  background-color: $offwhite;
+}
+
+// Border colour
+.border-bottom-mustard {
+  border-bottom: 1px solid $mustard;
+}
+
+//Media queries and breakpoints
+// Bootstrap 5 Breakpoints
+$breakpoints: ( 
+  //Extra small devices: phones
+  "extra-small": "max-width: 575.99px",
+  //Small devices: landscape phones
+  "small": "min-width: 576px",
+  //Medium devices: tablets
+  "medium": "min-width: 768px",
+  //Large devices: desktops, laptops
+  "large": "max-width: 992px",
+  //Extra large devices: large  desktops,
+  "extra-large": "max-width: 1200px"
+);

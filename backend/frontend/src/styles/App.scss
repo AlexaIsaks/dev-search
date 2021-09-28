@@ -1,0 +1,15 @@
+//Base
+@import "./base/reset";
+
+// Helpers
+@import "./helpers/variables";
+@import "./helpers/mixins";
+
+// Pages
+@import "./pages/userDetails";
+
+// Layout
+@import "./layout//result";
+
+// Components
+@import "./components//input";

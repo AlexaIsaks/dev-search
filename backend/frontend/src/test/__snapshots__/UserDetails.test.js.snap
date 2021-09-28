@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails component renders correctly 1`] = `
+Array [
+  <header
+    className="pt-4 pb-3"
+  >
+    <a
+      aria-current="page"
+      className="d-flex justify-content-start align-items-center text-decoration-none text-mustard fs-5 active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <span
+        className="d-flex justify-content-center align-items-center me-2"
+      >
+        <ion-icon
+          name="chevron-back-outline"
+        />
+      </span>
+      <span>
+        Back
+      </span>
+    </a>
+  </header>,
+  <main
+    className="pb-5 px-md-5"
+  >
+    <div
+      className="user"
+    >
+      <header
+        className="d-flex justify-content-start align-items-center my-5"
+      >
+        <div
+          className="user__image-container"
+        >
+          <img
+            alt="John Smith "
+            className="user__image"
+            src="https://secure.gravatar.com/avatar/2ed3e45ee10bf4e18df94e547c891c91?s=80&d=identicon"
+          />
+        </div>
+        <h1
+          className="ps-3 ps-md-5 h2 text-center"
+          data-testid="name"
+        >
+          John Smith 
+        </h1>
+      </header>
+      <section
+        className="mb-5"
+      >
+        <div
+          className="overflow-auto"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <th>
+                  Username
+                </th>
+                <td>
+                  John_smith
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  Bio
+                </th>
+                <td>
+                  Not available
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  URL
+                </th>
+                <td>
+                  <a
+                    href="https://gitlab.com/John_smith"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    https://gitlab.com/John_smith
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section>
+        <h2
+          className="mb-4 h3"
+        >
+          Repositories
+        </h2>
+        <div
+          className="overflow-auto"
+        >
+          <table
+            data-testid="table"
+          >
+            <tbody>
+              <tr>
+                <td>
+                  Please wait...
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>,
+]
+`;

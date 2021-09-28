@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "An API to retrieve Github and GitLab data",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha || true"
+  },
+  "author": "Alexa Isaks",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "helmet": "4.6.0",
+    "isomorphic-fetch": "^3.0.0",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "9.1.1",
+    "nodemon": "^2.0.12"
+  }
+}
