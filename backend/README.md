@@ -3,7 +3,7 @@ Search for developers on GitHub and GitLab.
 
 ## Table of Contents
 
-* [About the Project](#about-the-project)
+* [About the API](#about-the-api)
 * [Installation](#installation)
 * [Usage](#usage)
 
