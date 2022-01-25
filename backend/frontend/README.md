@@ -58,7 +58,10 @@ The skills demonstrated in this project:<br>
 
 * The Dev Search application should open up in your browser.
 
-<p align="center"><img alt="index page" src="./readme-images/dev-search-api-1.jpg" width="600"></p>
+<p align="center"><img alt="Home Page Desktop" src="./readme-images/home-page-desktop.png" width="600"></p>
+<p align="center"><img alt="Home Page Mobile" src="./readme-images/home-page-mobile.png" width="200"></p>
+<p align="center"><img alt="User Details Page Desktop" src="./readme-images/userdetails-page-desktop.png" width="600"></p>
+<p align="center"><img alt="User Details Page Mobile" src="./readme-images/userdetails-page-mobile.png" width="200"></p>
 
 * To search for a developer, enter the username in the search bar. Ensure that the spelling is correct.
 
